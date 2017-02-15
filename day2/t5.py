@@ -8,6 +8,8 @@ print (type (name))
 #可以进行索引和查询。
 # name.count(3)
 # name.index(3)
+# name.insert(0,111)
+#在name列表的第一个位置插入111
 
 username=input("please input username:")
 if username.strip() == 'aaa':

@@ -11,9 +11,15 @@ print(name[-2])
 print(name[0:2])
 print(name[:3])
 print(name[-0])
-print(name[-1:-5])
+print(name[-1:-5])  #-1代表最后一个值的位置
 print(name[:7][2:4][0][1])
 #切片。取头不取尾,可以不断的切分。
+"aaa" in name
+# 检查aaa是否在name中，返回true或false
+
+len(name)
+#输出name列表的长度
+
 
 name[1]="qaz"
 #对列表中第二个值进行更新修改。
@@ -38,6 +44,18 @@ print(name[0:-1:2])
 # print(name[0::2])
 # print(name[::2])
 #输出列表，除了最后一个值，每隔一个值输出一次值。最后一个值是步长。以上方法均可。默认步长是1
+
+#列表的嵌套
+a = ['a', 'b', 'c']
+n = [1, 2, 3]
+x1 = [a, n]
+x1
+#[['a', 'b', 'c'], [1, 2, 3]]
+x1[0]
+#['a', 'b', 'c']
+x1[0][1]
+#'b'
+
 
 
 

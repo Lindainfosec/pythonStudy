@@ -4,7 +4,6 @@
 
 """
 
-
 def sendmail():
     try:
         import smtplib
@@ -240,6 +239,14 @@ def f2():
     print(age, NAME)
 f1()
 f2()
+
+def a1():
+    print(123)
+    return "111"
+print(456)
+r = a1()
+print(r)
+#当函数中有return。函数执行在此终止
 
 
 
