@@ -11,3 +11,4 @@ import random
 print(random.random())  #输出0到1之间的随机小叔
 
 
+
